@@ -30,7 +30,7 @@ public class Main {
 		
 		
 		try {
-			file = new File("VideoGameList.txt");
+			file = new File("C:\\Users\\ch\\Desktop\\a\\src\\VideoGameList.txt");
 			input = new Scanner(file);
 			while(input.hasNext()) {
 				inputLine = input.nextLine();
@@ -77,4 +77,3 @@ public class Main {
 	}
 
 }
-
